@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="html" lang="cs">
+
+<title>Website</title>
+<link rel = "icon" href = ""> 
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0, user-scalable=1">
+	
+	<style>
+		.html{
+			max-width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+		}
+		.blueElement{
+			position: fixed;
+ 			top: 0;
+  			left: 0;
+ 			bottom: 0;
+ 			right: 0;
+  			overflow: auto;
+			background-color: rgb(54, 73, 143);
+			z-index: -1;
+		}
+		.loginOkno{
+			height: 422px;
+			width: 600px;
+			background-color: white;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 135px;
+			border-radius: 5px;
+		}
+		.text1{
+			font-family: Comic Sans MS;
+			font-size: 25px;
+			font-weight: bold;
+			padding-left: 20px;
+			padding-top: 10px;
+		}
+		.text2{
+			font-family: Comic Sans MS;
+			font-size: 15px;
+			font-weight: bold;
+			padding-left: 20px;
+			padding-top: 10px;
+		}
+		.input1{
+			width: 547px;
+			height: 24px;
+			margin-left: 20px;
+			margin-top: -20px;
+			border-radius: 4px;
+			padding-left: 5px;
+			padding-top: 0px;
+		}
+		.input2{
+			width: 547px;
+			height: 48px;
+			margin-left: 20px;
+			margin-top: -5px;
+			border-radius: 4px;
+			padding-left: 5px;
+		}
+		.inputCheckBox{
+			height: 18px;
+			width: 18px;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.text3{
+			font-family: Comic Sans MS;
+			font-size: 15px;
+			font-weight: bold;
+			padding-left: 48px;
+			margin-top: -24px;
+		}
+		.text4{
+			font-family: Comic Sans MS;
+			font-size: 15px;
+			font-weight: bold;
+			margin-top: -40px;
+			text-align: center;
+			color: white;
+		}
+		.button1{
+			width: 560px;
+			height: 32px;
+			margin-left: 20px;
+			margin-top: 6px;
+			background-color: #49c2ff;
+			border-radius: 3px;
+		}
+		.button1:hover{
+			cursor: pointer;
+			background-color: #7ed4ff;
+		}
+		.text5{
+			font-family: Comic Sans MS;
+			font-size: 15px;
+			font-weight: bold;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+		}
+		
+	</style>
+</head>
+
+<body class="body">
+	<div class="blueElement"></div>
+	<div class="loginOkno">
+		<p class="text1">Přidejte recenzi</p>
+		<p class="text2">Zadejte email* (nebude zveřejněn)</p>
+		<input class="input1" type="email" required></input>
+		<p class="text2" style="margin-top:0px" type="name">Zadejte jméno* (nebude zveřejněno)</p>
+		<input class="input1" required></input>
+		<p class="text2" style="margin-top:0px" type="">Text recenze* (nebude zveřejněna)</p>
+		<textarea class="input2" type="text" required></textarea>
+		<input class="inputCheckBox" type="checkbox" required><p class="text3">Souhlasím se zpracováním osobních údajů*</p></input>
+		<button class="button1"><span class="text5">Odeslat recenzi</span></button>
+	<div>
+</body>
+
+</html>
